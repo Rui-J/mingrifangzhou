@@ -10,7 +10,11 @@ module.exports = appInfo => {
    * built-in config
    * @type {Egg.EggAppConfig}
    **/
-  const config = exports = {};
+  const config = exports = {
+    siteFile: {
+      '/favicon.ico': '',
+    },
+  };
 
   // use for cookie sign key, should change to your own and keep security
   config.keys = appInfo.name + '_1557914264016_6008';
