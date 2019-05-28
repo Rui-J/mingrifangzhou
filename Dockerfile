@@ -9,4 +9,4 @@ EXPOSE 3000
 #如果在中国环境下构建请把下面注释打开
 #RUN npm config set registry https://registry.npm.taobao.org
 RUN npm install --production
-CMD ["npm", "start"]
+CMD ["npm","run","start"]

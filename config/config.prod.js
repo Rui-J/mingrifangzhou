@@ -24,7 +24,7 @@ module.exports = appInfo => {
     sequelize: {
       dialect: 'mysql', // support: mysql, mariadb, postgres, mssql
       database: 'mingrifangzhou',
-      host: 'localhost',
+      host: 'mrfz-mysql',
       port: 3306,
       username: 'root',
       password: '123456',
