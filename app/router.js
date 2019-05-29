@@ -13,5 +13,7 @@ module.exports = app => {
 
   router.post('/role/create', controller.role.create);
   router.get('/role/findAll', controller.role.findAll);
+  router.post('/role/destroy', controller.role.destroy);
+  router.post('/role/update', controller.role.update);
   router.get('/', controller.home.index);
 };
